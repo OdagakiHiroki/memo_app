@@ -19,7 +19,7 @@ class Item extends Component {
   }
   render() {
     let d = this.props.value.created;
-    let f = `${d.getHours()}:${d.getMinures()}:${d.getSeconds()}`;
+    let f = `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
     return (
       <tr>
         <th style={this.th}>No. {this.props.index}</th>
