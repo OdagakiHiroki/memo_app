@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import './App.css';
 import Memo from './Memo';
 import AddForm from './AddForm';
-// import FindForm from './FindForm';
+import FindForm from './FindForm';
 import DelForm from './DelForm';
 
 // Appコンポーネント
@@ -25,7 +25,7 @@ class App extends Component {
         <table>
           <tbody>
             <tr>
-              {/* <td style={this.td}><FindForm /></td> */}
+              <td style={this.td}><FindForm /></td>
               <td style={this.td}><DelForm /></td>
             </tr>
           </tbody>
