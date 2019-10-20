@@ -50,7 +50,7 @@ function addReduce(state, action) {
 }
 
 // メモ検索のレデュース処理
-function findReduce(stae, action) {
+function findReduce(state, action) {
   let f = action.find;
   let fdata = [];
   state.data.forEach((value) => {
